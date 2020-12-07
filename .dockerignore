@@ -1,0 +1,20 @@
+# vscode directory
+.vscode
+# git directory
+.git
+# node_modules directory
+node_modules
+# unit tests files
+**/*.spec.ts
+# e2e tests files
+**/*.e2e-spec.ts
+# directory with tests
+test
+# Readme files
+README.md
+# prettier config
+.prettierrc
+# gitignore 
+.gitignore
+# eslint config
+.eslintrc.js
