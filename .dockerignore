@@ -1,0 +1,24 @@
+# vscode directory only for development process
+.vscode
+# git directory only for development process
+.git
+# node_modules directory (image instaled it's own)
+node_modules
+# unit tests files
+**/*.spec.ts
+# e2e tests files
+**/*.e2e-spec.ts
+# directory with tests
+test
+# Readme files only for development process
+README.md
+# prettier config only for development process
+.prettierrc
+# gitignore only for development process
+.gitignore
+# eslint config only for development process
+.eslintrc.js
+# scripts for deploy shouldn't be in docker image 
+scripts
+# elasticbeanstalk config
+.elasticbeanstalk

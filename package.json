@@ -8,6 +8,9 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
+    "deploy:dev": "eb deploy develop",
+    "docker:build:publish": "sh ./scripts/docker/build-and-publish.sh",
+    "build:deploy:dev": "npm run docker:build:publish && npm run deploy:dev",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
